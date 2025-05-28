@@ -1,0 +1,15 @@
+
+:root {
+    --a: #dad7cd;
+    --b: #a3b18a;
+    --c: #588157;
+    --d: #3a5a40;
+    --e: #344e41;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
