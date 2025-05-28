@@ -1,2 +1,2 @@
 # Menu
-This is a menu for a Mexican restaurant
+This is a menu for a seafood restaurant.
