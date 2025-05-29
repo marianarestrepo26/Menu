@@ -1,10 +1,14 @@
-
 :root {
     --a: #dad7cd;
     --b: #a3b18a;
     --c: #588157;
     --d: #3a5a40;
-    --e: #344e41;
+    --e: #17251f;
+}
+
+@font-face {
+  font-family: Machine;
+  src: url(./Machine.ttf) format("opentype");
 }
 
 * {
@@ -13,3 +17,230 @@
   box-sizing: border-box;
 }
 
+body {
+  background: var(--b);
+  color: var(--e);
+  font-family: Machine;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding-bottom: 2em;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+footer {
+  background-color: var(--e);
+  width: 100%;
+  position: fixed;
+  padding: 1em 0;
+  bottom: 0;
+  margin-top: auto;
+}
+
+footer nav {
+  background-color: var(--e);
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--b);
+  display: block;
+  font-size: large;
+}
+
+nav a:hover {
+  background-color: var(--c);
+  color: var(--e);
+}
+
+main {
+  flex-basis: 100%;
+  height: 100px;
+  margin-bottom: 0.5rem;
+}
+
+.welcome_msg {
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 10vh;
+}
+
+.welcome_msg img {
+  margin-top: 15px;
+  width: 20vh;
+}
+
+.welcome_msg h1 {
+  font-size: 70px;
+}
+
+.menuPresentation {
+  text-align: center ;
+  align-items: center;
+  font-size: large;
+  margin-bottom: 10vh;
+}
+
+#sushi {
+  background: var(--d);
+  color: var(--a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.nsushi {
+  font-size: 10vh;
+  margin-bottom: 10vh;
+}
+
+.orden {
+  width: 50%;
+  align-items: center;
+  font-size: large;
+  margin-bottom: 20px;
+  background-color: var(--b);
+  padding: 15px;
+  color: var(--e);
+  border-radius: 5px;
+}
+
+.orden div {
+  text-align: center;
+}
+
+.orden img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.space {
+  display: inline;
+  text-align: center;
+}
+
+#rice {
+  margin-top: 50px;
+  background: var(--b);
+  color: var(--e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.nrice {
+  font-size: 10vh;
+  margin-bottom: 10vh;
+}
+
+.orden1 {
+  width: 50%;
+  align-items: center;
+  font-size: large;
+  margin-bottom: 20px;
+  background-color: var(--d);
+  padding: 15px;
+  color: var(--a);
+  border-radius: 5px;
+}
+
+.orden1 div {
+  text-align: center;
+}
+
+.orden1 img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#ceviche {
+  margin-top: 50px;
+  background: var(--c);
+  color: var(--e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.nceviche {
+  font-size: 10vh;
+  margin-bottom: 10vh;
+}
+
+.orden2 {
+  width: 50%;
+  align-items: center;
+  font-size: large;
+  margin-bottom: 20px;
+  background-color: var(--d);
+  padding: 15px;
+  color: var(--a);
+  border-radius: 5px;
+}
+
+.orden2 div {
+  text-align: center;
+}
+
+.orden2 img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#cocktails {
+  background: var(--e);
+  color: var(--a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.ncocktails {
+  font-size: 10vh;
+  margin-bottom: 10vh;
+}
+
+.orden3 {
+  width: 50%;
+  align-items: center;
+  font-size: large;
+  margin-bottom: 20px;
+  background-color: var(--d);
+  padding: 15px;
+  color: var(--a);
+  border-radius: 5px;
+}
+
+.orden3 div {
+  text-align: center;
+}
+
+.orden3 img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
